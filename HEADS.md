@@ -4,7 +4,7 @@ Head hash of each sealed UTC day of the Signathing evidence chain. Recompute fro
 
 | Day | Seq | Entries | Head hash | Internet Archive | Bitcoin (OpenTimestamps) | X |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026-10-22 | 544 to 555 | 12 | `f1286866ab3e4333923c91e81e140ce884f00b887567c9aa71c3a74fb200d3da` | [snapshot](https://web.archive.org/web/20261023000007/https://signathing.com/transparency/2026-10-22) | [pending](days/2026-10-22.ots) | [post](https://x.com/Signathing/status/2113420251727544362) |
+| 2026-10-22 | 544 to 555 | 12 | `f1286866ab3e4333923c91e81e140ce884f00b887567c9aa71c3a74fb200d3da` | [snapshot](https://web.archive.org/web/20261023000007/https://signathing.com/transparency/2026-10-22) | [block 972677](days/2026-10-22.ots) | [post](https://x.com/Signathing/status/2113420251727544362) |
 | 2026-10-21 | 538 to 543 | 6 | `45afce2ea717dcf4c65d38c65ef3aa15821f09294ebb91cfe11c4781d26b8181` | [snapshot](https://web.archive.org/web/20261022000006/https://signathing.com/transparency/2026-10-21) | [block 972551](days/2026-10-21.ots) | [post](https://x.com/Signathing/status/2113057850243043577) |
 | 2026-10-20 | 522 to 537 | 16 | `2eecc7217d6811ca500b79a1af9fbd072872aad001d2390b15daf991b98b26e1` | [snapshot](https://web.archive.org/web/20261021000005/https://signathing.com/transparency/2026-10-20) | [block 972397](days/2026-10-20.ots) | [post](https://x.com/Signathing/status/2112710118965932405) |
 | 2026-10-19 | 510 to 521 | 12 | `7fe40407e59422195723737f715958e44118b1b5872174887bf0ad75c7cf5c83` | [snapshot](https://web.archive.org/web/20261020000006/https://signathing.com/transparency/2026-10-19) | [block 972354](days/2026-10-19.ots) | [post](https://x.com/Signathing/status/2112710117539840123) |
