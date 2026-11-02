@@ -1,0 +1,47 @@
+{
+ "seal": {
+  "day": "2026-11-01",
+  "first_seq": 836,
+  "last_seq": 838,
+  "entries": 3,
+  "head_hash": "10076946058271d5f16d7c97f97feeed69c85e3fc99fe956ad90bd6ca930cf8d",
+  "sealed_at": "2026-11-02T00:00:01.612Z",
+  "archive_url": "https://web.archive.org/web/20261102000017/https://signathing.com/transparency/2026-11-01",
+  "ots_url": "https://signathing.com/api/evidence/days/2026-11-01.ots",
+  "ots_bitcoin_height": null,
+  "x_post_url": "https://x.com/Signathing/status/2117044158800039990"
+ },
+ "entry_hash_formula": "sha256(prev_hash + '\\n' + seq + '\\n' + at + '\\n' + type + '\\n' + fingerprint + '\\n' + detail_hash)",
+ "entries": [
+  {
+   "seq": 836,
+   "at": "2026-11-01T17:50:03.021Z",
+   "type": "reminder_sent",
+   "fingerprint": "e45fd9f133920a97766a4af280c0b5e66aa807a1beda22cf9ec017334db124ac",
+   "detail_hash": "9429bd4d1252998ff1ec6348af7cfba6d5885dfa55081eb8b233fa8b7c2174b7",
+   "prev_hash": "cad045cc82303dcab231d2a342b8c2c13d4bd2f4dee551cba0c97663645e6117",
+   "hash": "5d7cb79fe2d381c4b2d9a41373e26c47a9e16276f7a08e45d4f4eb32bf976b29",
+   "day": "2026-11-01"
+  },
+  {
+   "seq": 837,
+   "at": "2026-11-01T19:27:34.697Z",
+   "type": "created",
+   "fingerprint": "d911a44d63295d8e10214c4256aaabe8a0e88d3aac4e0f176619a1fda2c8c289",
+   "detail_hash": "421dfd62d4c86ae40e3f2dbae5b9e5421a6791b7075791c154c08ce66f50de02",
+   "prev_hash": "5d7cb79fe2d381c4b2d9a41373e26c47a9e16276f7a08e45d4f4eb32bf976b29",
+   "hash": "9f29f9b615c285b961c5578cc12043f0e8d3489957a04a1296143e25889df36b",
+   "day": "2026-11-01"
+  },
+  {
+   "seq": 838,
+   "at": "2026-11-01T19:27:34.697Z",
+   "type": "sent",
+   "fingerprint": "d911a44d63295d8e10214c4256aaabe8a0e88d3aac4e0f176619a1fda2c8c289",
+   "detail_hash": "7574a4860e85a602f001b62a212e8d348c831a48ee6613f1f2e9856018465d64",
+   "prev_hash": "9f29f9b615c285b961c5578cc12043f0e8d3489957a04a1296143e25889df36b",
+   "hash": "10076946058271d5f16d7c97f97feeed69c85e3fc99fe956ad90bd6ca930cf8d",
+   "day": "2026-11-01"
+  }
+ ]
+}
