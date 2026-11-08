@@ -5,13 +5,16 @@
   "last_seq": 908,
   "entries": 43,
   "head_hash": "294024b6a8ed36f574114e097365b4c0f1fd842e57b83515001cd5209dd528ea",
+  "merkle_root": "d33b117283124144f4b8a6130fb4948f3bcce65583ef02d2e3f7cab8fddab18b",
+  "merkle_leaves": 43,
   "sealed_at": "2026-11-08T00:00:02.597Z",
   "archive_url": "https://web.archive.org/web/20261108000007/https://signathing.com/transparency/2026-11-07",
   "ots_url": "https://signathing.com/api/evidence/days/2026-11-07.ots",
-  "ots_bitcoin_height": null,
+  "ots_bitcoin_height": 975004,
   "x_post_url": "https://x.com/Signathing/status/2119218439516491790"
  },
  "entry_hash_formula": "sha256(prev_hash + '\\n' + seq + '\\n' + at + '\\n' + type + '\\n' + fingerprint + '\\n' + detail_hash)",
+ "merkle_formula": "RFC 6962: leaf = sha256(0x00 || entry_hash_bytes), node = sha256(0x01 || left || right), split at the largest power of two below n; leaves are the day's entry hashes in seq order",
  "entries": [
   {
    "seq": 866,
