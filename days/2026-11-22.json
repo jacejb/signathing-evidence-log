@@ -1,0 +1,80 @@
+{
+ "seal": {
+  "day": "2026-11-22",
+  "first_seq": 1304,
+  "last_seq": 1309,
+  "entries": 6,
+  "head_hash": "3adbbf310f43940cf4554fe6377d098b95896977218d5dee3d60a498e3990ec2",
+  "merkle_root": "277dea3c222b06f360d2e929a8264debee4a897e2867f113ee1ca67b8595f503",
+  "merkle_leaves": 6,
+  "sealed_at": "2026-11-23T00:00:02.267Z",
+  "archive_url": "https://web.archive.org/web/20261123000007/https://signathing.com/transparency/2026-11-22",
+  "ots_url": "https://signathing.com/api/evidence/days/2026-11-22.ots",
+  "ots_bitcoin_height": null,
+  "x_post_url": "https://x.com/Signathing/status/2124654284272717906"
+ },
+ "entry_hash_formula": "sha256(prev_hash + '\\n' + seq + '\\n' + at + '\\n' + type + '\\n' + fingerprint + '\\n' + detail_hash)",
+ "merkle_formula": "RFC 6962: leaf = sha256(0x00 || entry_hash_bytes), node = sha256(0x01 || left || right), split at the largest power of two below n; leaves are the day's entry hashes in seq order",
+ "entries": [
+  {
+   "seq": 1304,
+   "at": "2026-11-22T04:00:04.850Z",
+   "type": "reminder_sent",
+   "fingerprint": "628340bd0eb58ebe1ad1e59e1cd727355863f72ed549cecd8c56e8dcc51eb955",
+   "detail_hash": "f5070a6dd5d550342da8edaae5b5d265b768d7e7089db492fa8bf55778c5745b",
+   "prev_hash": "b037af5d028ddfec73c39bd713e0831e07cdb6d0821ee5d165f3e7817e1c94cc",
+   "hash": "9d4086bfb0aaf07853d3cf12840e4d7eaff20f5f4b3dceb827de256a7aa9bd50",
+   "day": "2026-11-22"
+  },
+  {
+   "seq": 1305,
+   "at": "2026-11-22T05:10:03.652Z",
+   "type": "reminder_sent",
+   "fingerprint": "b0b1bf255a91662dc0eb5df0874514ceb7bf29b26d6a70e44d4e9ffd59acd32d",
+   "detail_hash": "06de5d0be284ae521bc2327ad271195658297c144abbaeb376659be32871975e",
+   "prev_hash": "9d4086bfb0aaf07853d3cf12840e4d7eaff20f5f4b3dceb827de256a7aa9bd50",
+   "hash": "332a918591b034d90cf93d413b07bc5a9a3a626c09cf38e63392e7d1a877106d",
+   "day": "2026-11-22"
+  },
+  {
+   "seq": 1306,
+   "at": "2026-11-22T08:00:05.294Z",
+   "type": "reminder_sent",
+   "fingerprint": "c85d18cf3e43ffa6ebbfa8488504564368943e17b47d7097b784883a674918e1",
+   "detail_hash": "702afb68ad0aad856c9f01dc332e9b24dca4746ada62cf173c1858d4e31fcb53",
+   "prev_hash": "332a918591b034d90cf93d413b07bc5a9a3a626c09cf38e63392e7d1a877106d",
+   "hash": "51985a39fbbe058ac73e8f13bae82a63e2e8ca0f0f7d4b663fe520d2fe4fa5aa",
+   "day": "2026-11-22"
+  },
+  {
+   "seq": 1307,
+   "at": "2026-11-22T18:39:12.642Z",
+   "type": "created",
+   "fingerprint": "c3ec5060a6f5f9d24e9e1161f283d8b0aef15d3ce7d5895aca6334cdedea7e81",
+   "detail_hash": "d76b004b86bff46d15a721454e536d67ad833f5751f676d3e0c042e0949373a1",
+   "prev_hash": "51985a39fbbe058ac73e8f13bae82a63e2e8ca0f0f7d4b663fe520d2fe4fa5aa",
+   "hash": "d727249e47be052fb6a6e955055035939fa706bacb18eb3d865ecd4102198f32",
+   "day": "2026-11-22"
+  },
+  {
+   "seq": 1308,
+   "at": "2026-11-22T18:39:12.642Z",
+   "type": "sent",
+   "fingerprint": "c3ec5060a6f5f9d24e9e1161f283d8b0aef15d3ce7d5895aca6334cdedea7e81",
+   "detail_hash": "84b583b954a04b5de7315708d4afe6852a1486e7abb52764ea4403aeb28ec299",
+   "prev_hash": "d727249e47be052fb6a6e955055035939fa706bacb18eb3d865ecd4102198f32",
+   "hash": "9dce41e6b1a9addcbbf228c803bac7c6e8015900a7b3701abb36174cdaa76e04",
+   "day": "2026-11-22"
+  },
+  {
+   "seq": 1309,
+   "at": "2026-11-22T22:30:05.003Z",
+   "type": "reminder_sent",
+   "fingerprint": "9a5547181450208187fbe97c17e18915756cf6902801f4f4d8e9bc6322fc364a",
+   "detail_hash": "5558bd23d114201d356020698f541dfbfb211bdc648a0e7c9f5ef1f294fceee0",
+   "prev_hash": "9dce41e6b1a9addcbbf228c803bac7c6e8015900a7b3701abb36174cdaa76e04",
+   "hash": "3adbbf310f43940cf4554fe6377d098b95896977218d5dee3d60a498e3990ec2",
+   "day": "2026-11-22"
+  }
+ ]
+}
